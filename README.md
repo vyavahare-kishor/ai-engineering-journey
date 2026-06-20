@@ -68,7 +68,7 @@ I'm not new to engineering — I'm new to this stack. That distinction matters: 
 | 3 | [**ai-customer-support-bot**](https://github.com/vyavahare-kishor/ai-customer-support-bot) | Full RAG pipeline from scratch — embeddings, vector search, hallucination guard | pgvector · sentence-transformers · RAG |
 | 4 | [**ai-research-agent**](https://github.com/vyavahare-kishor/ai-research-agent) | Autonomous single-agent reasoning — agent decides its own steps | LangGraph · ReAct · Tavily |
 | 5 | [**ai-document-analyser**](https://github.com/vyavahare-kishor/ai-document-analyser) | Conversational document intelligence with memory | FAISS · chunking · conversation memory |
-| 6 | [**streamlit-ui-integrated-ai-prj**](https://github.com/vyavahare-kishor/streamlit-ui-integrated-ai-prj) | Microservice thinking — one UI unifying multiple independent backends | Streamlit · multi-service architecture |
+| 6 | [**streamlit-ui-integrated-ai-prj**](https://github.com/vyavahare-kishor/streamlit-ui-integrated-ai-prj) | Microservice + in-process architecture — one UI unifying multiple backends, plus FAISS/LanceDB vector search built directly into the app | Streamlit · multi-service architecture · FAISS · LanceDB · Mistral Embeddings |
 | 7 | [**ai-analyst-crew**](https://github.com/vyavahare-kishor/ai-analyst-crew) | True multi-agent collaboration — distinct roles handing off work, not one agent looping | CrewAI · sequential task handoff |
 
 > Each repo has its own detailed README — architecture diagrams (where they help), API references, technical highlights, and what to test. This table is the index.
