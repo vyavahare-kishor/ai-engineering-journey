@@ -70,6 +70,7 @@ I'm not new to engineering — I'm new to this stack. That distinction matters: 
 | 5 | [**ai-document-analyser**](https://github.com/vyavahare-kishor/ai-document-analyser) | Conversational document intelligence with memory | FAISS · chunking · conversation memory |
 | 6 | [**streamlit-ui-integrated-ai-prj**](https://github.com/vyavahare-kishor/streamlit-ui-integrated-ai-prj) | Microservice + in-process architecture — one UI unifying multiple backends, plus FAISS/LanceDB vector search built directly into the app | Streamlit · multi-service architecture · FAISS · LanceDB · Mistral Embeddings |
 | 7 | [**ai-analyst-crew**](https://github.com/vyavahare-kishor/ai-analyst-crew) | True multi-agent collaboration — distinct roles handing off work, not one agent looping | CrewAI · sequential task handoff |
+| 8 | [**ai-mcp-toolkit**](https://github.com/yourusername/ai-mcp-toolkit) | Protocol-standard tool exposure — capabilities callable by any MCP client, not just one framework | MCP · FastMCP · Groq · Tavily |
 
 > Each repo has its own detailed README — architecture diagrams (where they help), API references, technical highlights, and what to test. This table is the index.
 
@@ -86,6 +87,8 @@ I picked each project to deliberately cover a different concept, not to pad a li
 - **Can I handle real file input, chunking, and multi-turn memory?** → ai-document-analyser
 - **Can I think beyond one service — design something a real team would architect?** → streamlit-ui-integrated-ai-prj
 - **Do I understand the difference between an agent and a team of agents?** → ai-analyst-crew
+- **Can I expose AI capabilities through a standardized protocol instead of one-off integrations?** → ai-mcp-toolkit
+
 
 ---
 
