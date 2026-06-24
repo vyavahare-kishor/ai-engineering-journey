@@ -70,7 +70,7 @@ I'm not new to engineering — I'm new to this stack. That distinction matters: 
 | 5 | [**ai-document-analyser**](https://github.com/vyavahare-kishor/ai-document-analyser) | Conversational document intelligence with memory | FAISS · chunking · conversation memory |
 | 6 | [**streamlit-ui-integrated-ai-prj**](https://github.com/vyavahare-kishor/streamlit-ui-integrated-ai-prj) | Microservice + in-process architecture — one UI unifying multiple backends, plus FAISS/LanceDB vector search built directly into the app | Streamlit · multi-service architecture · FAISS · LanceDB · Mistral Embeddings |
 | 7 | [**ai-analyst-crew**](https://github.com/vyavahare-kishor/ai-analyst-crew) | True multi-agent collaboration — distinct roles handing off work, not one agent looping | CrewAI · sequential task handoff |
-| 8 | [**ai-mcp-toolkit**](https://github.com/yourusername/ai-mcp-toolkit) | Protocol-standard tool exposure — capabilities callable by any MCP client, not just one framework | MCP · FastMCP · Groq · Tavily |
+| 8 | [**ai-mcp-toolkit**](https://github.com/yourusername/ai-mcp-toolkit) | Real cross-service architecture — MCP tools that call other repos' live APIs, not reimplementations | MCP · FastMCP · httpx · Groq |
 
 > Each repo has its own detailed README — architecture diagrams (where they help), API references, technical highlights, and what to test. This table is the index.
 
