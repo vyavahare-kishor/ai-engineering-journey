@@ -20,7 +20,7 @@ This isn't a resume. It's a **build log**.
 
 Every project linked below is real, working code — not a copied tutorial. I update this README the moment a new project ships, in the order I built it, including the bugs I hit and how I fixed them. If you're an interviewer or hiring manager, this page is the fastest way to verify what I actually know versus what I claim to know.
 
-**Last updated:** with the addition of a CrewAI multi-agent project — see the journey table below.
+**Last updated:** with the addition of ai-roundtable — the third agent framework paradigm (AutoGen) now alongside LangGraph and CrewAI.
 
 ---
 
@@ -71,8 +71,19 @@ I'm not new to engineering — I'm new to this stack. That distinction matters: 
 | 6 | [**streamlit-ui-integrated-ai-prj**](https://github.com/vyavahare-kishor/streamlit-ui-integrated-ai-prj) | Microservice + in-process architecture — one UI unifying multiple backends, plus FAISS/LanceDB vector search built directly into the app | Streamlit · multi-service architecture · FAISS · LanceDB · Mistral Embeddings |
 | 7 | [**ai-analyst-crew**](https://github.com/vyavahare-kishor/ai-analyst-crew) | True multi-agent collaboration — distinct roles handing off work, not one agent looping | CrewAI · sequential task handoff |
 | 8 | [**ai-mcp-toolkit**](https://github.com/yourusername/ai-mcp-toolkit) | Real cross-service architecture — MCP tools that call other repos' live APIs, not reimplementations | MCP · FastMCP · httpx · Groq |
+| 9 | [**ai-roundtable**](https://github.com/vyavahare-kishor/ai-roundtable) | Shared-context multi-agent debate — agents see every message and respond to each other, not just handoff | AutoGen · RoundRobinGroupChat · Groq |
 
 > Each repo has its own detailed README — architecture diagrams (where they help), API references, technical highlights, and what to test. This table is the index.
+
+---
+
+## 🤖 Three Agent Paradigms, Three Projects
+
+| Framework | Project | How agents interact |
+|-----------|---------|----------------------|
+| **LangGraph** | [ai-research-agent](https://github.com/vyavahare-kishor/ai-research-agent) | One agent, autonomous ReAct loop — no other agents involved |
+| **CrewAI** | [ai-analyst-crew](https://github.com/vyavahare-kishor/ai-analyst-crew) | Multiple roles, sequential handoff — one agent's output becomes the next's input |
+| **AutoGen** | [ai-roundtable](https://github.com/vyavahare-kishor/ai-roundtable) | Multiple agents, shared group chat — every agent sees every message and responds in turn |
 
 ---
 
@@ -88,16 +99,7 @@ I picked each project to deliberately cover a different concept, not to pad a li
 - **Can I think beyond one service — design something a real team would architect?** → streamlit-ui-integrated-ai-prj
 - **Do I understand the difference between an agent and a team of agents?** → ai-analyst-crew
 - **Can I expose AI capabilities through a standardized protocol instead of one-off integrations?** → ai-mcp-toolkit
-
-
----
-
-## 📌 Currently Working On
-
-- [ ] LlamaIndex — alternative RAG framework, different data-loading philosophy than LangChain
-- [ ] AutoGen — conversational multi-agent framework (Microsoft)
-- [ ] Deploying the full stack to production (Railway/Render)
-- [ ] Agent observability — tracing multi-agent decisions end-to-end
+- **Can I tell the difference between agents handing off work and agents actually talking to each other?** → ai-roundtable
 
 ---
 
