@@ -20,7 +20,7 @@ This isn't a resume. It's a **build log**.
 
 Every project linked below is real, working code — not a copied tutorial. I update this README the moment a new project ships, in the order I built it, including the bugs I hit and how I fixed them. If you're an interviewer or hiring manager, this page is the fastest way to verify what I actually know versus what I claim to know.
 
-**Last updated:** with the addition of ai-roundtable — the third agent framework paradigm (AutoGen) now alongside LangGraph and CrewAI.
+**Last updated:** all three agent paradigms now live — LangGraph, CrewAI, and AutoGen — clickable together in one Streamlit UI, plus a real cross-service MCP toolkit.
 
 ---
 
@@ -68,7 +68,7 @@ I'm not new to engineering — I'm new to this stack. That distinction matters: 
 | 3 | [**ai-customer-support-bot**](https://github.com/vyavahare-kishor/ai-customer-support-bot) | Full RAG pipeline from scratch — embeddings, vector search, hallucination guard | pgvector · sentence-transformers · RAG |
 | 4 | [**ai-research-agent**](https://github.com/vyavahare-kishor/ai-research-agent) | Autonomous single-agent reasoning — agent decides its own steps | LangGraph · ReAct · Tavily |
 | 5 | [**ai-document-analyser**](https://github.com/vyavahare-kishor/ai-document-analyser) | Conversational document intelligence with memory | FAISS · chunking · conversation memory |
-| 6 | [**streamlit-ui-integrated-ai-prj**](https://github.com/vyavahare-kishor/streamlit-ui-integrated-ai-prj) | Microservice + in-process architecture — one UI unifying 6 backends across 3 agent frameworks, plus FAISS/LanceDB vector search | Streamlit · multi-service architecture · CrewAI · AutoGen · FAISS · LanceDB |
+| 6 | [**streamlit-ui-integrated-ai-prj**](https://github.com/vyavahare-kishor/streamlit-ui-integrated-ai-prj) | Microservice + in-process architecture — one UI unifying 7 backends across 3 agent frameworks, plus FAISS/LanceDB vector search | Streamlit · multi-service architecture · LangGraph · CrewAI · AutoGen · FAISS · LanceDB |
 | 7 | [**ai-analyst-crew**](https://github.com/vyavahare-kishor/ai-analyst-crew) | True multi-agent collaboration — distinct roles handing off work, not one agent looping | CrewAI · sequential task handoff |
 | 8 | [**ai-mcp-toolkit**](https://github.com/yourusername/ai-mcp-toolkit) | Real cross-service architecture — MCP tools that call other repos' live APIs, not reimplementations | MCP · FastMCP · httpx · Groq |
 | 9 | [**ai-roundtable**](https://github.com/vyavahare-kishor/ai-roundtable) | Shared-context multi-agent debate — agents see every message and respond to each other, not just handoff | AutoGen · RoundRobinGroupChat · Groq |
@@ -77,14 +77,15 @@ I'm not new to engineering — I'm new to this stack. That distinction matters: 
 
 ---
 
-## 🤖 Three Agent Paradigms, Three Projects
+## 🤖 Three Agent Paradigms, Three Projects — One Place to See Them Together
 
 | Framework | Project | How agents interact |
 |-----------|---------|----------------------|
-| **LangGraph** | [ai-research-agent](https://github.com/vyavahare-kishor/ai-research-agent) | One agent, autonomous ReAct loop — no other agents involved |
-| **CrewAI** | [ai-analyst-crew](https://github.com/vyavahare-kishor/ai-analyst-crew) | Multiple roles, sequential handoff — one agent's output becomes the next's input |
-| **AutoGen** | [ai-roundtable](https://github.com/vyavahare-kishor/ai-roundtable) | Multiple agents, shared group chat — every agent sees every message and responds in turn |
+| **LangGraph** | [ai-research-agent](https://github.com/vyavahare-kishor/ai-research-agent) | One agent, autonomous ReAct loop |
+| **CrewAI** | [ai-analyst-crew](https://github.com/vyavahare-kishor/ai-analyst-crew) | Multiple roles, sequential handoff |
+| **AutoGen** | [ai-roundtable](https://github.com/vyavahare-kishor/ai-roundtable) | Multiple agents, shared group chat |
 
+All three are clickable side by side in [**streamlit-ui-integrated-ai-prj**](https://github.com/vyavahare-kishor/streamlit-ui-integrated-ai-prj).
 ---
 
 ## 🧠 What Each Project Was Built to Answer
@@ -105,7 +106,7 @@ I picked each project to deliberately cover a different concept, not to pad a li
 
 ## 💼 Background (Condensed)
 
-11+ years as a backend engineer — most recently Senior Software Engineer at **JiffyShirts** (US based eCommerce platform), prior roles at **Pattern** and **MangoApps**. Core depth in Ruby on Rails, PostgreSQL, Redis, Docker, and AWS (Certified Solutions Architect Associate). 5+ years remote collaboration with US/Canada/Australia-based teams.
+11+ years as a backend engineer across high-traffic eCommerce, supply chain/logistics, and SaaS platforms. Most recently architected automation and AI-augmented workflows for a high-volume US eCommerce platform — including AI-assisted code review processes and webhook-driven automation that cut manual ops work significantly. Core depth in Ruby on Rails, PostgreSQL, Redis, Docker, and AWS (Certified Solutions Architect Associate). 5+ years remote collaboration with US/Canada/Australia-based teams.
 
 I'm not learning to code. I'm learning a new layer to build with — and shipping proof of it as I go.
 
